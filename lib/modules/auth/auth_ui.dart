@@ -90,6 +90,8 @@ class _AuthUIState extends State<AuthUI> {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
           color: Colors.grey[300],
+         // image: DecorationImage(image: AssetImage("lib/images/auth_page.jpg"))
+          // image: DecorationImage(image: ImageStream)
         ),
         padding: const EdgeInsets.all(20),
         child: Form(
@@ -97,8 +99,6 @@ class _AuthUIState extends State<AuthUI> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              //Text(l),
-              //TODO onChange добавить для изменения размера контейнера при выводе ошибки
               // необходимо добавить флаг для корректности валидации
               TextFormField(
                 maxLength: 25,

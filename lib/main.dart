@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_app/pages/auth_page.dart';
 import 'package:mobile_app/pages/index_page.dart';
 import 'package:mobile_app/pages/menu_page.dart';
 import 'package:mobile_app/pages/registration_page.dart';
