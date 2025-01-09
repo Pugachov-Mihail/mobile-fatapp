@@ -9,7 +9,7 @@ class IndexPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: token.isEmpty ? AuthPage(): MenuPage(),
+      body: token.isEmpty ? AuthPage(): const MenuPage(),
     );
   }
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_app/pages/auth_page.dart';
 import 'package:mobile_app/pages/person_page.dart';
 import 'package:mobile_app/pages/trenning_list_page.dart';
 import '../components/nav_bar.dart';
@@ -21,6 +20,7 @@ class _MenuPageState extends State<MenuPage> {
   }
 
   final List<Widget> _pages = [
+    TrenningListPage(),
     TrenningListPage(),
     PersonPage()
   ];

@@ -20,10 +20,17 @@ class _ButtonNavBarState extends State<ButtonNavBar> {
         currentIndex: widget.currentIndex,
         items: [
           BottomNavigationBarItem(
+            activeIcon: SvgPicture.asset("lib/icons/dumbbell.svg", width: 30, height: 30, color: Colors.deepPurple,),
             icon: SvgPicture.asset("lib/icons/dumbbell.svg", width: 30, height: 30,),
+            label: "Программы",
+          ),
+          BottomNavigationBarItem(
+            activeIcon: SvgPicture.asset("lib/icons/sport.svg", width: 30, height: 30, color: Colors.deepPurple,),
+            icon: SvgPicture.asset("lib/icons/sport.svg", width: 30, height: 30,),
             label: "Тренировки",
           ),
           BottomNavigationBarItem(
+              activeIcon: SvgPicture.asset("lib/icons/person.svg", width: 30, height: 30, color: Colors.deepPurple,),
               icon: SvgPicture.asset("lib/icons/person.svg", width: 30, height: 30,),
               label: "Профиль"
           ),

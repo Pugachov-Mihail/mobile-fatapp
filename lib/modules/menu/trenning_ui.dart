@@ -30,8 +30,15 @@ class TrenningWidget extends StatelessWidget{
           height: 200,
           width: 380,
           decoration: BoxDecoration(
-            color: Colors.greenAccent,
-            borderRadius: BorderRadius.circular(12)
+            color: Colors.greenAccent.withOpacity(0.65),
+            borderRadius: BorderRadius.circular(12),
+            boxShadow: const [
+              BoxShadow(
+                color: Colors.black12,
+                blurRadius: 3,
+                offset: Offset(3, 3)
+              )
+            ]
           ),
           child: Padding(
             padding: const EdgeInsets.only(top: 10),

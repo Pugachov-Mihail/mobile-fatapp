@@ -1,11 +1,12 @@
 class MainPageTrenning {
-  final String title;
+  late final String title;
   final String description;
   final String image;
-  late Trener trenerName;
+  late Trener trenerInfo;
   late double raiting;
+  List<TrenningInfo> trenningInfo;
 
-  MainPageTrenning(this.title, this.description, this.image, this.trenerName, this.raiting);
+  MainPageTrenning(this.title, this.description, this.image, this.trenerInfo, this.raiting, this.trenningInfo);
 }
 
 class Trener{
@@ -13,4 +14,13 @@ class Trener{
   final String lastName;
 
   Trener(this.name, this.lastName);
+}
+
+class TrenningInfo {
+  String title;
+  String avatar;
+  List<int> approach;
+
+
+  TrenningInfo(this.title, this.avatar, this.approach);
 }
